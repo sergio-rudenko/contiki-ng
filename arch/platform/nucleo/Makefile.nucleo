@@ -1,0 +1,13 @@
+ifndef CONTIKI
+  $(error CONTIKI not defined! You must specify where CONTIKI resides!)
+endif
+
+CONTIKI_TARGET_DIRS = . 
+CONTIKI_SOURCEFILES += platform.c #<platform sourcefiles here>
+
+CLEAN += *.nucleo
+
+CONTIKI_CPU=$(CONTIKI)/arch/cpu/stm32f091
+include $(CONTIKI_CPU)/Makefile.stm32f091
+
+#MODULES += arch/dev/s2lp

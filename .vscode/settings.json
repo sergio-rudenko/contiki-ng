@@ -1,0 +1,20 @@
+{
+    "files.associations": {
+        "contiki.h": "c",
+        "contiki-conf.h": "c",
+        "board.h": "c",
+        "nvic.h": "c",
+        "cc2538_cm3.h": "c",
+        "nucleo-def.h": "c",
+        "stm32f091-conf.h": "c",
+        "contiki-net.h": "c",
+        "leds.h": "c",
+        "stm32f091-def.h": "c",
+        "main.h": "c",
+        "stm32f0xx_it.h": "c",
+        "etimer.h": "c",
+        "ctimer.h": "c",
+        "rtimer.h": "c",
+        "dbg.h": "c"
+    }
+}

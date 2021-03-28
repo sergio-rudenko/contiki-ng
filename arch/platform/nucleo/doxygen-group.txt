@@ -1,0 +1,4 @@
+/**
+ * \defgroup nucleo NUCLEO Development Board
+ * \ingroup platform
+ */
